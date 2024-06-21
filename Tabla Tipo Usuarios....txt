@@ -1,0 +1,10 @@
+
+	TABLA "TIPO DE USUARIOS"
+
+INSERT INTO tipo_usuario (ID_TIPO_USUARIO, NOMBRE)
+VALUES 
+    	(1, 'Administrador'),
+    	(2, 'Encargado Laboratorio'),
+    	(3, 'Profesor'),
+	(4, 'Alumno'),
+	(5, 'Practicante')

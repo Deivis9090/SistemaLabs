@@ -1,0 +1,153 @@
+--------------------Tabla Campus--------------
+
+INSERT INTO campus (ID_CAMPUS, NOMBRE) VALUES
+(1, 'Campus Central'),
+(2, 'Campus Sur'),
+(3, 'Edificios Centrales'),
+(4, 'Campus Norte Posta Zootecnica'),
+(5, 'Centro de Educacion Media Plantel Central'),
+(6, 'Centro de Educacion Media Plantel Oriente'),
+(7, 'Centro de Actividades Artisticas');
+
+------------------Tabla edificios-----------------
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(1, 1, 'Edificio 1'),
+(2, 1, 'Edificio 2'),
+(3, 1, 'Edificio 3'),
+(4, 1, 'Edificio 4'),
+(5, 1, 'Edificio 5'),
+(6, 1, 'Edificio 6'),
+(7, 1, 'Edificio 6A'),
+(8, 1, 'Edificio 7'),
+(9, 1, 'Edificio 8'),
+(10, 1, 'Edificio 9'),
+(11, 1, 'Edificio 10'),
+(12, 1, 'Edificio 11'),
+(13, 1, 'Edificio 12'),
+(14, 1, 'Edificio 13'),
+(15, 1, 'Edificio 14'),
+(16, 1, 'Edificio 15'),
+(17, 1, 'Edificio 16'),
+(18, 1, 'Edificio 20'),
+(19, 1, 'Edificio 21'),
+(20, 1, 'Edificio 22'),
+(21, 1, 'Edificio 23'),
+(22, 1, 'Edificio 24'),
+(23, 1, 'Edificio 25'),
+(24, 1, 'Edificio 26'),
+(25, 1, 'Edificio 27'),
+(26, 1, 'Edificio 28'),
+(27, 1, 'Edificio 29'),
+(28, 1, 'Edificio 30'),
+(29, 1, 'Edificio 32'),
+(30, 1, 'Edificio 34'),
+(31, 1, 'Edificio 35'),
+(32, 1, 'Edificio 36'),
+(33, 1, 'Edificio 40'),
+(34, 1, 'Edificio 42'),
+(35, 1, 'Edificio 52'),
+(36, 1, 'Edificio 54'),
+(37, 1, 'Edificio 56'),
+(38, 1, 'Edificio 61'),
+(39, 1, 'Boveda Jesus F Contreras'),
+(40, 1, 'Edificio 101'),
+(41, 1, 'Edificio 101B'),
+(42, 1, 'Edificio 103'),
+(43, 1, 'Edificio 104'),
+(44, 1, 'Edificio 105'),
+(45, 1, 'Edificio 106'),
+(46, 1, 'Edificio 107'),
+(47, 1, 'Edificio 108'),
+(48, 1, 'Anexo 108'),
+(49, 1, 'Edificio 108C'),
+(50, 1, 'Edificio 109'),
+(51, 1, 'Edificio 110'),
+(52, 1, 'Edificio 111'),
+(53, 1, 'Edificio 112'),
+(54, 1, 'Edificio 117'),
+(55, 1, 'Edificio 121'),
+(56, 1, 'Edificio 127'),
+(57, 1, 'Anexo127'),
+(58, 1, 'Edificio 131'),
+(59, 1, 'Edificio 132'),
+(60, 1, 'Edificio 133'),
+(61, 1, 'Edificio 202'),
+(62, 1, 'Edificio 203'),
+(63, 1, 'Edificio 204'),
+(64, 1, 'Edificio 204A'),
+(65, 1, 'Edificio 204B'),
+(66, 1, 'Edificio 206'),
+(67, 1, 'Edificio 207'),
+(68, 1, 'Edificio 208'),
+(69, 1, 'Edificio 209'),
+(70, 1, 'Edificio 211'),
+(71, 1, 'Edificio 212'),
+(72, 1, 'Edificio 213'),
+(73, 1, 'Edificio 214'),
+(74, 1, 'Edificio 215'),
+(75, 1, 'Edificio 220'),
+(76, 1, 'Edificio 221'),
+(77, 1, 'Edificio 222'),
+(78, 1, 'Edificio 223'),
+(79, 1, 'Edificio 224'),
+(80, 1, 'Edificio 303'),
+(81, 1, 'Edificio 305'),
+(82, 1, 'Edificio 308'),
+(83, 1, 'Edificio 309'),
+(84, 1, 'Edificio 314');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(85, 2, 'Edificio 2 CS'),
+(86, 2, 'Edificio 3 CS'),
+(87, 2, 'Edificio 7 CS (NORTE)'),
+(88, 2, 'Edificio 7 CS (SUR)'),
+(89, 2, 'Edificio 8 CS'),
+(90, 2, 'Edificio 10 CS'),
+(91, 2, 'Edificio 11 CS'),
+(92, 2, 'Edificio 13 CS'),
+(93, 2, 'Edificio 15 CS'),
+(94, 2, 'Edificio 16 CS'),
+(95, 2, 'Edificio 17 CS');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(96, 3, 'Edificio Gomez Portugal'),
+(97, 3, '19 de Junio'),
+(98, 3, 'Oficinas de la ACIUAA'),
+(99, 3, 'Edificio de la Escuela de Musica'),
+(100, 3, 'Edificio Escuela de Cinematografia');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(101, 4, 'Unidad de Manejo Ambiental'),
+(102, 4, 'Edificio del Decanato'),
+(103, 4, 'Edificio 1 Posta'),
+(104, 4, 'Edificio 2 Posta'),
+(105, 4, 'Edificio 3 Posta'),
+(106, 4, 'Edificio 5 Posta'),
+(107, 4, 'Edificio 7 Posta'),
+(108, 4, 'Edificio 9 Posta'),
+(109, 4, 'Edificio 12 Posta'),
+(110, 4, 'Edificio 13 Posta'),
+(111, 4, 'Edificio 14 Posta');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(112, 5, 'Edificio 1 Educacion Media'),
+(113, 5, 'Edificio 2 Educacion Media'),
+(114, 5, 'Edificio 3 Educacion Media'),
+(115, 5, 'Edificio 4 Educacion Media'),
+(116, 5, 'Edificio 5 Educacion Media'),
+(117, 5, 'Edificio 6 Educacion Media'),
+(118, 5, 'Edificio 8 Educacion Media');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(119, 6, 'Anexo Edificio Administrativo'),
+(120, 6, 'Edificio 1 Plantel Oriente'),
+(121, 6, 'Edificio 2 Plantel Oriente'),
+(122, 6, 'Edificio 3 Plantel Oriente'),
+(123, 6, 'Edificio Administrativo Plantel Oriente'),
+(124, 6, 'Edificios de laboratorios Plantel Oriente');
+
+INSERT INTO edificio (ID_EDIFICIO, ID_CAMPUS, Nombre_Edificio) VALUES
+(125, 7, 'Centro de Actividades Artisticas');
+
+
+

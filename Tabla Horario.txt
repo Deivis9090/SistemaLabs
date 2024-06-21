@@ -1,0 +1,2 @@
+INSERT INTO horario (HORA_INI, HORA_FIN) VALUES
+('08:00:00', '20:00:00');
